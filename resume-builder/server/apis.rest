@@ -1,0 +1,26 @@
+# REST APIs
+
+
+@host=http://localhost:4000
+
+### 
+# api
+GET {{host}}/api
+
+###
+# create resume
+POST {{host}}/resume/create
+Content-Type: application/json
+
+{
+  "fullName": "Jaeyong Lim",
+  "currentPosition": "software engineer",
+  "currentLength": "6",
+  "currentTechnologies": "nodejs",
+  "workHistory": [
+    {
+      "name": "Gitple",
+      "position": "software engineer"
+    }
+  ]
+}
