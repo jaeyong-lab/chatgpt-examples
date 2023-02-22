@@ -16,11 +16,5 @@ Content-Type: application/json
   "fullName": "Jaeyong Lim",
   "currentPosition": "software engineer",
   "currentLength": "6",
-  "currentTechnologies": "nodejs",
-  "workHistory": [
-    {
-      "name": "Gitple",
-      "position": "software engineer"
-    }
-  ]
+  "currentTechnologies": "nodejs"
 }

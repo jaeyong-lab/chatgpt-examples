@@ -8,10 +8,9 @@ const path = require('path');
 const { Configuration, OpenAIApi } = require('openai');
 const generateID = () => Math.random().toString(36).substring(2, 10);
 
-// openapi
-// apikey: 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
+// openapi api key
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '',
 });
 
 const openai = new OpenAIApi(configuration);

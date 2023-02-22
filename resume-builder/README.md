@@ -5,18 +5,29 @@
 
 ### How to run
 
-- server
-  ```bash
-  $ cd ./resume-builder/server
+#### server
+- `./resume-builder/server/index.js`: set openAI(chatGTP) api key: https://platform.openai.com/account/api-keys
+    ```javascript
+    const configuration = new Configuration({
+      apiKey: '',
+    });
 
-  $ npm install
+    ```
 
-  # create uploads directory
-  $ mkdir uploads
+- run server
+    ```bash
+    $ cd ./resume-builder/server
 
-  $ npm run start
-  ```
-- client
+    $ npm install
+
+    # create uploads directory
+    $ mkdir uploads
+
+    $ npm run start
+    ```
+
+#### client
+- run client
   ```bash
   $ cd ./resume-builder/client
 
